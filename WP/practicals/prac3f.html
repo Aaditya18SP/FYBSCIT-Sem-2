@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prac3f</title>
+
+<script type="text/javascript">
+<!--
+function add(){
+var sum; 
+var num1=Number(document.getElementById("num1").value);
+var num2=Number(document.getElementById("num2").value);
+sum=(num1+num2);
+document.getElementById("ans1").value=sum;
+}
+
+function sub(){
+var diff;
+var num3=document.getElementById("num3").value;
+var num4=document.getElementById("num4").value;
+diff=num3-num4;
+document.getElementById("ans2").value=diff;
+}
+function mul(){
+var product;
+var num5=document.getElementById("num5").value;
+var num6=document.getElementById("num6").value;
+product=num5*num6;
+document.getElementById("ans3").value=product;
+}
+
+function div(){
+var quotient;
+var num7=document.getElementById("num7").value;
+var num8=document.getElementById("num8").value;
+quotient=num7/num8;
+document.getElementById("ans4").value=quotient;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//-->
+</script>
+</head>
+<body>
+<h2> Calculator</h2><br>
+<p>
+<b>Addition</b><br>
+1st number:<input type="text" id="num1"> + 2nd number:<input type="text" id="num2"> &nbsp &nbsp 
+<input type="button" onclick="add()" value="add"> <br /><br />
+Sum:<input type="text" id="ans1"><br>
+</p>
+ 
+<p>
+<b>Subtraction</b><br>
+1st number:<input type="text" id="num3"> + 2nd number:<input type="text" id="num4">&nbsp &nbsp
+<input type="button" onclick="sub()" value="subtract"> <br /><br />
+Difference:<input type="text" id="ans2"><br>
+</p>
+
+<p>
+<b>Multiplication</b><br>
+1st number:<input type="text" id="num5"> + 2nd number:<input type="text" id="num6"> &nbsp &nbsp
+<input type="button" onclick="mul()" value="multiply"><br /> <br />
+Product:<input type="text" id="ans3"><br>
+</p>
+
+<p>
+<b>Division</b><br>
+Dividend:<input type="text" id="num7"> + Divisor:<input type="text" id="num8">&nbsp &nbsp
+<input type="button" onclick="div()" value="divide"> <br /><br />
+Quotient:<input type="text" id="ans4"><br>
+</p>
+
+
+
+</body>
+
+
+
+
+</html>

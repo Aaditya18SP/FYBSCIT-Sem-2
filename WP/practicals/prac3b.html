@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>prac3b</title>
+<script type="text/javascript">
+<!--
+function validate(){
+var x,y,z;
+x=document.forms.myform.fname.value;
+z=document.forms.myform.pa.value;
+if(x==""){
+alert("name must be filled");
+}
+else if(z.length<8){
+alert("password must be 8 character long");
+}
+
+y=document.getElementById("mul").value;
+
+if(y%2==0){
+
+alert("input is ok");
+}
+else{
+alert("input is invalid");
+}
+
+
+
+
+}
+
+
+
+//-->
+</script>
+</head>
+<body>
+<form name="myform" method="post">
+Enter a multiple of two:<input type="text" id="mul" ><br />
+Enter name:<input type="text" maxlength="8" name="fname"  id="pass"><br />
+Enter password:<input type="password" name="pa"><br /><br />
+<button onclick="validate()" > submit</button>
+<button> reset</button>
+
+
+</form>
+</body>
+</html>

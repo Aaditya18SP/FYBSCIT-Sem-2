@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prac3f</title>
+
+<script type="text/javascript">
+<!--
+function disp(){
+var i,j=0;
+for(i=0;i<5;i++){
+
+while(j<=i){
+document.write(j+" ");
+j++;
+}
+}
+}
+
+function disp1(){
+var a,b;
+do{
+document.write(a+" ");
+a++;
+}while(a<=5);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//-->
+</script>
+</head>
+<body>
+for,while loop:<input type="button" onclick="disp()" value="loop">
+do while loop:<input type="button" onclick="disp1()" value=" do-while loop">
+
+
+
+</body>
+
+
+
+
+</html>
